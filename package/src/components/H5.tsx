@@ -9,7 +9,7 @@ import type { TypographyProps } from './Typography';
 
 const H5: FC<TypographyProps> = (props) => {
   // Props
-  const { children, component = 'h5', level = 'body-md', variant = 'plain', ...otherProps } = props;
+  const { children, component = 'h5', level = 'title-lg', variant = 'plain', ...otherProps } = props;
 
   return (
     <Typography component={component} level={level} variant={variant} {...otherProps}>

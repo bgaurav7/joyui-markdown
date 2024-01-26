@@ -1,9 +1,12 @@
 import { JoyuiMarkdown } from 'joyui-markdown';
 
 const md = `
-# Heading One
-
-## Heading Two
+# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 `;
 
 const App = () => (
